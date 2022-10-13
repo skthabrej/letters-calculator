@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+    .bg-container {
+        background-image: radial-gradient(rgb(255, 255, 255) 5%, rgb(255, 30, 30) 15%, rgb(255, 255, 255) 60%);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    .card-container {
+        background-image: radial-gradient(rgb(255, 255, 255) 5%, rgb(255, 30, 30) 15%, rgb(251, 255, 255) 60%);
+        display: flex;
+        flex-direction: row;
+        padding: 70px;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 7%;
+        height: auto;
+        width: auto;
+    }
+}
+
+.heading {
+    color: rgb(13, 13, 13);
+    font-size: 30px;
+    
+}
+
+.paragraph {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.input-style{
+    font-size: 20px;
+    background-color: transparent;
+    height: 3vh;
+    width: 21vh;
+    
+}
+
+.paragraph-2 {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.img {
+    height: 50vh;
+    width: 50vh;
+}
