@@ -3,10 +3,11 @@ import {Component} from 'react'
 
 
 class LettersCalculator extends Component {    
-    state = {count: ''}
-    onLettersCount = event => {
+    state = {count:''}
+
+    onLetterCount = event => {
         const {value} = event.target
-        this.setState(prevState => ({count: value}))
+        this.setState({count:value})
     }
 
     render() {
@@ -17,7 +18,7 @@ class LettersCalculator extends Component {
                     <div className='text-card'>
                         <h1 className='heading'>Calculate the<br/>Letters you<br/>Enter</h1>
                         <p className='paragraph'>Enter the phrase</p>
-                        <input className="input-style" type="search" placeholder="Enter the phrase" onChange={this.onLettersCount}/>
+                        <input className="input-style" type="search" placeholder="Enter the phrase" onChange={this.onLetterCount}/>
                         <p className="paragraph-2">No.of letters: {count.length}</p>
                     </div>
                     <div className='img-container'>
